@@ -67,7 +67,7 @@ class Discollama:
         permissions=discord.Permissions(
           read_messages=True,
           send_messages=True,
-          create_public_threads=True,
+          create_public_threads=False,
         ),
         scopes=['bot'],
       ),
